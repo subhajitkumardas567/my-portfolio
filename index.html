@@ -138,19 +138,24 @@
           <div class="status built"><span class="dot"></span>Ongoing / Team Project</div>
         </div>
         <div class="function">FUNCTION — Customer operations platform for agents</div>
-        <p class="desc">A full-stack application that helps agents manage customer operations, including authentication, customer search, records, purchase history, case and fund details, and account transfers. Contributed across frontend development and backend/API work.</p>
+        <p class="desc">An ongoing team-built customer operations platform for agent authentication and workflows across customer records, purchases, cases, funds, notes, and account transfers. Contributed to React frontend features, Express APIs, and QA across the frontend and backend repositories.</p>
         <ul class="project-features">
-          <li>Built React.js customer search components and the /search interface</li>
-          <li>Implemented and tested private routing and login-to-search authentication</li>
-          <li>Contributed to the Purchase GET API controller and 200, 404, and 500 response handling</li>
-          <li>Worked with Express.js, Prisma, PostgreSQL, Postman, GitHub, and Taiga in an Agile team</li>
+          <li>Contributed to the React customer search interface in SearchPage.js, SearchBar.js, and NewCustomerButton.js, plus login UI including a show/hide password control and loading-state behavior.</li>
+          <li>Worked on the Agent Login Controller integration with the existing authentication service and on the Purchase GET controller with success and error response handling.</li>
+          <li>Implemented the Create Fund API for Story #87 (POST /api/v1/funds/create): generates a sequential Fund ID, creates a Prisma/PostgreSQL record with applicable business fields initialized to NULL, and returns the ID.</li>
+          <li>Tested endpoints in Postman, checked validation and not-found cases, validated the Prisma schema, and verified persisted records in PostgreSQL/Neon.</li>
+          <li>Investigated customer, case, and fund workflow issues involving response formats, duplicate requests, routing, database null constraints, and persistence; compared API results with database state.</li>
+          <li>Collaborated through Git feature branches, GitHub pull requests and reviews, merge-conflict resolution, and Taiga story tracking within the team’s existing architecture.</li>
         </ul>
         <div class="interface-label">Interface</div>
         <div class="pins small">
           <div class="pin"><span class="dot"></span>React.js</div>
+          <div class="pin"><span class="dot"></span>JavaScript</div>
+          <div class="pin"><span class="dot"></span>Tailwind CSS</div>
           <div class="pin"><span class="dot"></span>Node.js</div>
           <div class="pin"><span class="dot"></span>Express.js</div>
           <div class="pin"><span class="dot"></span>PostgreSQL</div>
+          <div class="pin"><span class="dot"></span>Neon</div>
           <div class="pin"><span class="dot"></span>Prisma</div>
           <div class="pin"><span class="dot"></span>REST APIs</div>
           <div class="pin"><span class="dot"></span>Postman</div>
@@ -290,11 +295,42 @@
       <p>Professional certificates and verified learning milestones.</p>
     </div>
 
+    <article class="certification-card sap-certification-card reveal">
+      <div class="sap-certification-heading">
+        <img class="sap-issuer-logo" src="assets/sap-logo.svg" alt="SAP logo" width="96" height="48">
+        <div class="sap-certification-title">
+          <div class="function">SAP CERTIFIED</div>
+          <h3>SAP Certified – Back-End Developer – ABAP Cloud</h3>
+          <p class="sap-issuer">Issued by SAP</p>
+        </div>
+        <div class="status granted"><span class="dot"></span>Certified</div>
+      </div>
+      <p class="desc">Demonstrates knowledge of modern SAP backend development concepts and ABAP Cloud development practices.</p>
+      <div class="certification-meta">
+        <span><b>Issued</b> September 7, 2026</span>
+        <span><b>Valid until</b> September 8, 2027</span>
+      </div>
+      <div class="pins small sap-certification-skills" aria-label="Certification skills">
+        <div class="pin"><span class="dot"></span>ABAP</div>
+        <div class="pin"><span class="dot"></span>ABAP Cloud</div>
+        <div class="pin"><span class="dot"></span>RAP</div>
+        <div class="pin"><span class="dot"></span>SAP S/4HANA</div>
+        <div class="pin"><span class="dot"></span>SAP Clean Core</div>
+      </div>
+      <div class="sap-certification-actions">
+        <a class="btn btn-primary" href="https://www.credly.com/badges/5ef5410b-3cc6-4a67-8bee-d4afbf87a20e" target="_blank" rel="noopener">Verify Credential <span aria-hidden="true">↗</span></a>
+        <a class="repo-link" href="certificates/SAPCertification20260907-19-xosxru.pdf" target="_blank" rel="noopener">View Certificate PDF <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
     <div class="certification-card reveal">
       <div class="certification-top">
         <div>
           <div class="function">NPTEL / IIT KHARAGPUR</div>
-          <h3>Programming in Java</h3>
+          <div class="certification-course-title">
+            <img class="nptel-logo" src="https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg" alt="NPTEL logo" width="100" height="23">
+            <h3>Programming in Java</h3>
+          </div>
         </div>
         <div class="status granted"><span class="dot"></span>Elite</div>
       </div>
@@ -322,8 +358,8 @@
         <h3>Curriculum Vitae</h3>
       </div>
       <div class="cv-actions">
-        <a class="repo-link" href="certificates/Subhajit%20Kumar%20Das-%20Final%20CV.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
-        <a class="cv-download" href="certificates/Subhajit%20Kumar%20Das-%20Final%20CV.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
+        <a class="repo-link" href="certificates/Subhajit%20Kumar%20Das-2.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+        <a class="cv-download" href="certificates/Subhajit%20Kumar%20Das-2.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
       </div>
     </div>
   </section>
